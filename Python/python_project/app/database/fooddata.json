@@ -1,0 +1,1436 @@
+[
+    {
+        "BREAKFAST": {
+            "Veg": [
+                {
+                    "id": "1",
+                    "item_name": "Idli",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 20
+                        },
+                        {
+                            "name": "Full",
+                            "price": 40
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "item_name": "Plain Dosa",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 35
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "item_name": "Masala Dosa",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 35
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "item_name": "Poha",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 55
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "item_name": "Upma",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 50
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "item_name": "Vada",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 40
+                        }
+                    ]
+                },
+                {
+                    "id": "7",
+                    "item_name": "Pongal",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 50
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "item_name": "Rava Idli",
+                    "size": [
+                        {
+                            "name": "Full",
+                            "price": 25
+                        },
+                        {
+                            "name": "Half",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "9",
+                    "item_name": "Vegetable Sandwich",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "item_name": "Aloo Paratha",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 100
+                        },
+                        {
+                            "name": "Double",
+                            "price": 200
+                        }
+                    ]
+                }
+            ],
+            "Non-Veg": [
+                {
+                    "id": "11",
+                    "item_name": "Egg Omelette",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 30
+                        },
+                        {
+                            "name": "Double",
+                            "price": 50
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "item_name": "Bread Omelette",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 40
+                        },
+                        {
+                            "name": "Full",
+                            "price": 70
+                        }
+                    ]
+                },
+                {
+                    "id": "13",
+                    "item_name": "Boiled Eggs",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 15
+                        },
+                        {
+                            "name": "Double",
+                            "price": 25
+                        }
+                    ]
+                },
+                {
+                    "id": "14",
+                    "item_name": "Chicken Sandwich",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "15",
+                    "item_name": "Egg Roll",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 35
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "16",
+                    "item_name": "Chicken Roll",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 80
+                        }
+                    ]
+                }
+            ],
+            "Fast Food": [
+                {
+                    "id": "17",
+                    "item_name": "Veg Sandwich",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "18",
+                    "item_name": "Cheese Sandwich",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 40
+                        },
+                        {
+                            "name": "Full",
+                            "price": 80
+                        }
+                    ]
+                },
+                {
+                    "id": "19",
+                    "item_name": "French Fries",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "20",
+                    "item_name": "Veg Burger",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "21",
+                    "item_name": "Cheese Burger",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 55
+                        },
+                        {
+                            "name": "Full",
+                            "price": 110
+                        }
+                    ]
+                }
+            ],
+            "Roti": [
+                {
+                    "id": "22",
+                    "item_name": "Plain Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 15
+                        },
+                        {
+                            "name": "Double",
+                            "price": 25
+                        }
+                    ]
+                },
+                {
+                    "id": "23",
+                    "item_name": "Butter Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 30
+                        }
+                    ]
+                }
+            ],
+            "Sweets": [
+                {
+                    "id": "24",
+                    "item_name": "Gulab Jamun",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 35
+                        }
+                    ]
+                },
+                {
+                    "id": "25",
+                    "item_name": "Jalebi",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "26",
+                    "item_name": "Rasgulla",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 35
+                        }
+                    ]
+                }
+            ],
+            "Drinks": [
+                {
+                    "id": "27",
+                    "item_name": "Coffee",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 20
+                        },
+                        {
+                            "name": "Full",
+                            "price": 35
+                        }
+                    ]
+                },
+                {
+                    "id": "28",
+                    "item_name": "Milk",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "29",
+                    "item_name": "Water",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 10
+                        },
+                        {
+                            "name": "Full",
+                            "price": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "LUNCH": {
+            "Veg": [
+                {
+                    "id": "30",
+                    "item_name": "Veg Thali",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 90
+                        },
+                        {
+                            "name": "Full",
+                            "price": 150
+                        }
+                    ]
+                },
+                {
+                    "id": "31",
+                    "item_name": "Dal Tadka",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 70
+                        },
+                        {
+                            "name": "Full",
+                            "price": 120
+                        }
+                    ]
+                },
+                {
+                    "id": "32",
+                    "item_name": "Paneer Butter Masala",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 110
+                        },
+                        {
+                            "name": "Full",
+                            "price": 190
+                        }
+                    ]
+                },
+                {
+                    "id": "33",
+                    "item_name": "Jeera Rice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 65
+                        },
+                        {
+                            "name": "Full",
+                            "price": 110
+                        }
+                    ]
+                },
+                {
+                    "id": "34",
+                    "item_name": "Mix Veg",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 80
+                        },
+                        {
+                            "name": "Full",
+                            "price": 140
+                        }
+                    ]
+                },
+                {
+                    "id": "35",
+                    "item_name": "Palak Paneer",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 90
+                        },
+                        {
+                            "name": "Full",
+                            "price": 160
+                        }
+                    ]
+                },
+                {
+                    "id": "36",
+                    "item_name": "Veg Pulao",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 70
+                        },
+                        {
+                            "name": "Full",
+                            "price": 130
+                        }
+                    ]
+                },
+                {
+                    "id": "37",
+                    "item_name": "Kadai Paneer",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 100
+                        },
+                        {
+                            "name": "Full",
+                            "price": 180
+                        }
+                    ]
+                }
+            ],
+            "Non-Veg": [
+                {
+                    "id": "38",
+                    "item_name": "Chicken Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 140
+                        },
+                        {
+                            "name": "Full",
+                            "price": 220
+                        }
+                    ]
+                },
+                {
+                    "id": "39",
+                    "item_name": "Egg Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 100
+                        },
+                        {
+                            "name": "Full",
+                            "price": 160
+                        }
+                    ]
+                },
+                {
+                    "id": "40",
+                    "item_name": "Mutton Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 200
+                        },
+                        {
+                            "name": "Full",
+                            "price": 320
+                        }
+                    ]
+                },
+                {
+                    "id": "41",
+                    "item_name": "Fish Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 180
+                        },
+                        {
+                            "name": "Full",
+                            "price": 300
+                        }
+                    ]
+                },
+                {
+                    "id": "42",
+                    "item_name": "Chicken Tikka Masala",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 160
+                        },
+                        {
+                            "name": "Full",
+                            "price": 280
+                        }
+                    ]
+                }
+            ],
+            "Fast Food": [
+                {
+                    "id": "43",
+                    "item_name": "Veg Fried Rice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 80
+                        },
+                        {
+                            "name": "Full",
+                            "price": 140
+                        }
+                    ]
+                },
+                {
+                    "id": "44",
+                    "item_name": "Chicken Fried Rice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 100
+                        },
+                        {
+                            "name": "Full",
+                            "price": 170
+                        }
+                    ]
+                },
+                {
+                    "id": "45",
+                    "item_name": "Veg Noodles",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 75
+                        },
+                        {
+                            "name": "Full",
+                            "price": 130
+                        }
+                    ]
+                },
+                {
+                    "id": "46",
+                    "item_name": "Chicken Noodles",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 90
+                        },
+                        {
+                            "name": "Full",
+                            "price": 150
+                        }
+                    ]
+                },
+                {
+                    "id": "47",
+                    "item_name": "Paneer Roll",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                }
+            ],
+            "Roti": [
+                {
+                    "id": "48",
+                    "item_name": "Plain Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 15
+                        },
+                        {
+                            "name": "Double",
+                            "price": 25
+                        }
+                    ]
+                },
+                {
+                    "id": "49",
+                    "item_name": "Butter Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 30
+                        }
+                    ]
+                },
+                {
+                    "id": "50",
+                    "item_name": "Tandoori Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 40
+                        }
+                    ]
+                }
+            ],
+            "Sweets": [
+                {
+                    "id": "51",
+                    "item_name": "Rasgulla",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 35
+                        }
+                    ]
+                },
+                {
+                    "id": "52",
+                    "item_name": "Kheer",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "53",
+                    "item_name": "Gajar Halwa",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                }
+            ],
+            "Drinks": [
+                {
+                    "id": "54",
+                    "item_name": "Lassi",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 25
+                        },
+                        {
+                            "name": "Full",
+                            "price": 50
+                        }
+                    ]
+                },
+                {
+                    "id": "55",
+                    "item_name": "Fresh Juice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "56",
+                    "item_name": "Butter Milk",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 15
+                        },
+                        {
+                            "name": "Full",
+                            "price": 30
+                        }
+                    ]
+                },
+                {
+                    "id": "57",
+                    "item_name": "Cold Drink",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 20
+                        },
+                        {
+                            "name": "Full",
+                            "price": 40
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "DINNER": {
+            "Veg": [
+                {
+                    "id": "58",
+                    "item_name": "Veg Biryani",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 100
+                        },
+                        {
+                            "name": "Full",
+                            "price": 180
+                        }
+                    ]
+                },
+                {
+                    "id": "59",
+                    "item_name": "Shahi Paneer",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 120
+                        },
+                        {
+                            "name": "Full",
+                            "price": 210
+                        }
+                    ]
+                },
+                {
+                    "id": "60",
+                    "item_name": "Veg Korma",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 110
+                        },
+                        {
+                            "name": "Full",
+                            "price": 200
+                        }
+                    ]
+                },
+                {
+                    "id": "61",
+                    "item_name": "Dal Fry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 70
+                        },
+                        {
+                            "name": "Full",
+                            "price": 120
+                        }
+                    ]
+                },
+                {
+                    "id": "62",
+                    "item_name": "Mix Veg Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 80
+                        },
+                        {
+                            "name": "Full",
+                            "price": 150
+                        }
+                    ]
+                },
+                {
+                    "id": "63",
+                    "item_name": "Paneer Lababdar",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 100
+                        },
+                        {
+                            "name": "Full",
+                            "price": 180
+                        }
+                    ]
+                }
+            ],
+            "Non-Veg": [
+                {
+                    "id": "64",
+                    "item_name": "Butter Chicken",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 150
+                        },
+                        {
+                            "name": "Full",
+                            "price": 260
+                        }
+                    ]
+                },
+                {
+                    "id": "65",
+                    "item_name": "Chicken Tikka",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 130
+                        },
+                        {
+                            "name": "Full",
+                            "price": 230
+                        }
+                    ]
+                },
+                {
+                    "id": "66",
+                    "item_name": "Mutton Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 200
+                        },
+                        {
+                            "name": "Full",
+                            "price": 320
+                        }
+                    ]
+                },
+                {
+                    "id": "67",
+                    "item_name": "Egg Masala",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 100
+                        },
+                        {
+                            "name": "Double",
+                            "price": 160
+                        }
+                    ]
+                },
+                {
+                    "id": "68",
+                    "item_name": "Fish Curry",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 180
+                        },
+                        {
+                            "name": "Full",
+                            "price": 300
+                        }
+                    ]
+                },
+                {
+                    "id": "69",
+                    "item_name": "Prawn Masala",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 200
+                        },
+                        {
+                            "name": "Full",
+                            "price": 350
+                        }
+                    ]
+                }
+            ],
+            "Fast Food": [
+                {
+                    "id": "70",
+                    "item_name": "Veg Burger",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "71",
+                    "item_name": "Chicken Burger",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 60
+                        },
+                        {
+                            "name": "Full",
+                            "price": 120
+                        }
+                    ]
+                },
+                {
+                    "id": "72",
+                    "item_name": "Pizza Slice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "73",
+                    "item_name": "Paneer Sandwich",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "74",
+                    "item_name": "Veg Wrap",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 55
+                        },
+                        {
+                            "name": "Full",
+                            "price": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "75",
+                    "item_name": "Cheese Roll",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 60
+                        },
+                        {
+                            "name": "Full",
+                            "price": 110
+                        }
+                    ]
+                }
+            ],
+            "Roti": [
+                {
+                    "id": "76",
+                    "item_name": "Butter Naan",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 40
+                        },
+                        {
+                            "name": "Double",
+                            "price": 70
+                        }
+                    ]
+                },
+                {
+                    "id": "77",
+                    "item_name": "Garlic Naan",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 45
+                        },
+                        {
+                            "name": "Double",
+                            "price": 80
+                        }
+                    ]
+                },
+                {
+                    "id": "78",
+                    "item_name": "Tandoori Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 40
+                        }
+                    ]
+                },
+                {
+                    "id": "79",
+                    "item_name": "Missi Roti",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 35
+                        },
+                        {
+                            "name": "Double",
+                            "price": 60
+                        }
+                    ]
+                }
+            ],
+            "Sweets": [
+                {
+                    "id": "80",
+                    "item_name": "Kaju Katli",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "81",
+                    "item_name": "Rasmalai",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 30
+                        },
+                        {
+                            "name": "Double",
+                            "price": 55
+                        }
+                    ]
+                },
+                {
+                    "id": "82",
+                    "item_name": "Gulab Jamun",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 20
+                        },
+                        {
+                            "name": "Double",
+                            "price": 35
+                        }
+                    ]
+                },
+                {
+                    "id": "83",
+                    "item_name": "Jalebi",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "84",
+                    "item_name": "Mysore Pak",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "85",
+                    "item_name": "Soan Papdi",
+                    "size": [
+                        {
+                            "name": "Single",
+                            "price": 25
+                        },
+                        {
+                            "name": "Double",
+                            "price": 45
+                        }
+                    ]
+                }
+            ],
+            "Drinks": [
+                {
+                    "id": "86",
+                    "item_name": "Cold Coffee",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 35
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "87",
+                    "item_name": "Smoothie",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "88",
+                    "item_name": "Lemon Juice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 20
+                        },
+                        {
+                            "name": "Full",
+                            "price": 35
+                        }
+                    ]
+                },
+                {
+                    "id": "89",
+                    "item_name": "Milkshake",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 80
+                        }
+                    ]
+                },
+                {
+                    "id": "90",
+                    "item_name": "Green Tea",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 25
+                        },
+                        {
+                            "name": "Full",
+                            "price": 40
+                        }
+                    ]
+                },
+                {
+                    "id": "91",
+                    "item_name": "Iced Tea",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 25
+                        },
+                        {
+                            "name": "Full",
+                            "price": 45
+                        }
+                    ]
+                },
+                {
+                    "id": "92",
+                    "item_name": "Orange Juice",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 30
+                        },
+                        {
+                            "name": "Full",
+                            "price": 50
+                        }
+                    ]
+                },
+                {
+                    "id": "93",
+                    "item_name": "Strawberry Shake",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 80
+                        }
+                    ]
+                },
+                {
+                    "id": "94",
+                    "item_name": "Vanilla Shake",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 80
+                        }
+                    ]
+                },
+                {
+                    "id": "95",
+                    "item_name": "Chocolate Shake",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "96",
+                    "item_name": "Cappuccino",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 40
+                        },
+                        {
+                            "name": "Full",
+                            "price": 70
+                        }
+                    ]
+                },
+                {
+                    "id": "97",
+                    "item_name": "Espresso",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 35
+                        },
+                        {
+                            "name": "Full",
+                            "price": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "98",
+                    "item_name": "Hot Chocolate",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 50
+                        },
+                        {
+                            "name": "Full",
+                            "price": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "99",
+                    "item_name": "Iced Coffee",
+                    "size": [
+                        {
+                            "name": "Half",
+                            "price": 45
+                        },
+                        {
+                            "name": "Full",
+                            "price": 80
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

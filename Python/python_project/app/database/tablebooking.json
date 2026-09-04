@@ -1,0 +1,44 @@
+[
+    {
+        "booking_id": "1e6f41",
+        "created_at": "2026-06-08T10:09:03.237725",
+        "tables": [
+            {
+                "date": "2026-06-08",
+                "time_slot": "10:00 - 12:00",
+                "table_no": 1,
+                "seats_booked": 1
+            },
+            {
+                "date": "2026-06-08",
+                "time_slot": "10:00 - 12:00",
+                "table_no": 1,
+                "seats_booked": 1
+            }
+        ]
+    },
+    {
+        "booking_id": "b40411",
+        "created_at": "2026-06-08T12:36:03.801819",
+        "tables": [
+            {
+                "date": "2026-06-08",
+                "time_slot": "12:00 - 14:00",
+                "table_no": 1,
+                "seats_booked": 2
+            }
+        ]
+    },
+    {
+        "booking_id": "711b04",
+        "created_at": "2026-06-08T12:59:28.833156",
+        "tables": [
+            {
+                "date": "2026-06-08",
+                "time_slot": "12:00 - 14:00",
+                "table_no": 1,
+                "seats_booked": 2
+            }
+        ]
+    }
+]
