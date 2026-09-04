@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accordion</title>
+
+    <style>
+        .accordion {
+            background-color: #eee;
+            cursor: pointer;
+            padding: 15px;
+            width: 50%;
+            border: none;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+        }
+
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .panel {
+            display: none;
+            padding: 10px;
+            background-color: white;
+            width: 48.4%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Accordion</h2>
+
+    <button class="accordion">
+        Section 1
+        <span class="icon">+</span>
+    </button>
+    <div class="panel">
+        <p>Content of section 1</p>
+    </div>
+
+    <button class="accordion">
+        Section 2
+        <span class="icon">+</span>
+    </button>
+    <div class="panel">
+        <p>Content of section 2</p>
+    </div>
+
+    <button class="accordion">
+        Section 3
+        <span class="icon">+</span>
+    </button>
+    <div class="panel">
+        <p>Content of section 3</p>
+    </div>
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
