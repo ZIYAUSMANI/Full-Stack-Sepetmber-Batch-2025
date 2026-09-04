@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    position: absolute;
+
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-image: conic-gradient(green 90deg, white 90deg);
+    position: absolute;
+    margin-left: 8%;
+    z-index: 1;
+}

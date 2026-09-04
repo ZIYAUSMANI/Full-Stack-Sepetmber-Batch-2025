@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+.mainbox {
+    margin: auto;
+    width: 800px;
+    border-top: 1px solid gainsboro;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.left-side {
+    height: 750px;
+    width: 200px;
+    background-color: black;
+    border-top-left-radius: 10px;
+
+}
+
+.right-side {
+    width: 600px;
+    background-color: white;
+
+
+}
+
+.top {
+
+    height: 50px;
+    border-bottom: 0.2px solid gainsboro;
+
+
+
+}
+
+.left-side .top {
+    width: 200px;
+}
+
+.right-side .top {
+    width: 593px;
+
+}
+
+.content {
+    padding: 15px 20px;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.one {
+    height: 100px;
+    width: 550px;
+    background-color: whitesmoke;
+    ;
+
+    border-radius: 10px;
+
+}
+
+.two {
+
+    width: 550px;
+    background-color: white;
+    ;
+
+
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+
+}
+
+.two-left {
+
+    width: 275px;
+
+}
+
+.two-right {
+
+    width: 275px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.two-left-top {
+
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.card {
+    height: 80px;
+    width: 80px;
+    background-color: gainsboro;
+    border-radius: 10px;
+
+}
+
+.two-left-bottom {
+
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 30px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+
+}
+
+.card1 {
+    height: 80px;
+    width: 150px;
+    background-color: gainsboro;
+    border-radius: 10px;
+
+}
+
+.card2 {
+    height: 60px;
+    width: 90px;
+    background-color: gainsboro;
+    border-radius: 10px;
+
+}
+
+.two-right-top {
+    height: 100px;
+
+    background-color: gainsboro;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.two-right-bottom {
+    height: 100px;
+
+}
+
+.three {
+
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: whitesmoke;
+}
+
+.card-three {
+    height: 100px;
+    width: 90px;
+    background-color: gainsboro;
+    border-radius: 10px;
+
+    border: 2px solid gainsboro;
+
+}
+
+.a {
+    height: 60px;
+
+}
+
+.e {
+    height: 70px;
+    width: 50px;
+    background-color: white;
+    margin-top: 15px;
+
+}
+
+.b {
+    background-color: white;
+}
+
+.b-one {
+    height: 45px;
+    background-color: gainsboro;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.b-two {
+    height: 45px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.d {
+    background-color: white;
+}

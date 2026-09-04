@@ -1,0 +1,104 @@
+  * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      font-family: sans-serif;
+  }
+
+  .box {
+      height: 500px;
+      width: 450px;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: white;
+      margin: auto;
+      position: absolute;
+      margin-left: 10%;
+      margin-top: 4%;
+      box-shadow: 0 8px 15px rgba(164, 157, 157, 0.3);
+
+  }
+
+  .online {
+      margin-left: 75%;
+      width: 100px;
+      padding: 5px 30px;
+      font-weight: bolder;
+      border-radius: 20px;
+      background-color: rgb(1, 160, 1);
+      color: white;
+
+
+  }
+
+  h1 {
+      margin-top: 25%;
+      text-align: center;
+      font-size: 30px;
+      margin-right: 20px;
+
+  }
+
+  h2 {
+
+      text-align: center;
+      font-size: 18px;
+      color: gray;
+      font-weight: light;
+      margin-right: 20px;
+  }
+
+  p {
+      line-height: 30px;
+      margin-top: 5%;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      margin-bottom: 30px;
+      overflow: auto;
+      height: 200px;
+  }
+
+  .follow-btn {
+      border: 1px solid rgb(21, 5, 247);
+      padding: 10px 55px;
+      border-radius: 8px;
+      background-color: rgb(71, 71, 216);
+      color: white;
+      box-shadow: 0 2px 2px rgb(81, 42, 252);
+
+
+  }
+
+  .message-btn {
+
+      padding: 10px 55px;
+      border-radius: 8px;
+      border: 2px solid gainsboro;
+      color: gray;
+      box-shadow: 0 2px 4px rgb(161, 157, 179);
+      background-color: white;
+
+
+  }
+
+  .box-outer {
+      height: 800px;
+      width: 800px;
+      background-color: rgb(237, 237, 237);
+      margin: auto;
+      padding-top: 5%;
+
+  }
+
+  .img {
+      height: 200px;
+      width: 200px;
+      background-image: url(profile-image.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      position: relative;
+      margin-left: 30%;
+  }

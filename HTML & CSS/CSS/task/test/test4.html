@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+
+
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .mark {
+        mask-image: url(Heartbeat.svg);
+        mask-size: cover;
+        mask-position: center;
+        mask-repeat: no-repeat;
+    }
+
+    .mark:hover {
+        transform: rotate(45deg) scale(1.2) translate(50px, 20px);
+    }
+
+    .liner {
+        mask-image: radial-gradient(circle at center, red 50%, transparent 50%),
+            linear-gradient(transparent 30%, red 30% 70%, transparent 70%),
+            linear-gradient(120deg, transparent 45%, red 45% 60%, transparent 60%),
+            linear-gradient(-120deg, transparent 45%, red 45% 60%, transparent 60%);
+        mask-composite: add;
+
+    }
+</style>
+
+<body>
+    <div class="mark">
+        <img src="Cover (convert.io).webp" alt="">
+    </div>
+    <div class="liner">
+        <img src="Cover (convert.io).webp" alt="">
+    </div>
+    <div>
+        <img src="Cover (convert.io).webp" alt="">
+    </div>
+</body>
+
+
+</html>
