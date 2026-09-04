@@ -1,0 +1,1246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Vite</title>
+    <script type="module" src="./js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-dark text-white py-2">
+        <div class="container d-flex align-items-center">
+
+            <div class="small text-center flex-grow-1 fs-6 fs-md-6 fs-sm-7">
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                <a href="#" class="text-white text-decoration-underline ms-2">ShopNow</a>
+            </div>
+
+            <div class="ms-auto d-flex align-items-center gap-1">
+                <span class="small">English</span>
+                <img src="./assests/icon/arrowdown.svg" alt="arrowdown" width="12">
+            </div>
+
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white border-bottom">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold fs-4" href="#">Exclusive</a>
+
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="d-flex align-items-center gap-3 order-lg-3">
+                    <div class="d-flex align-items-center position-relative ">
+                        <input type="text" class="form-control border-0 shadow-none pe-5 bg-secondary"
+                            placeholder="What are you looking for?">
+                        <img src="./assests/icon/search.svg" alt="search" class="position-absolute end-0 me-2"
+                            width="18">
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="./assests/icon/heart.svg" alt="Wishlist" width="20">
+                        <img src="./assests/icon/shopping.svg" alt="shopping" width="20">
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active text-decoration-underline" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-3 col-md-4 col-12 border-end py-4 d-flex">
+                        <ul class="list-group text-center text-md-start w-100">
+                            <li class="list-group-item border-0">Woman’s Fashion</li>
+                            <li class="list-group-item border-0">Men’s Fashion</li>
+                            <li class="list-group-item border-0">Electronics</li>
+                            <li class="list-group-item border-0">Home & Lifestyle</li>
+                            <li class="list-group-item border-0">Medicine</li>
+                            <li class="list-group-item border-0">Sports & Outdoor</li>
+                            <li class="list-group-item border-0">Baby’s & Toys</li>
+                            <li class="list-group-item border-0">Groceries & Pets</li>
+                            <li class="list-group-item border-0">Health & Beauty</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-9 col-md-8 col-12 d-flex p-3 p-md-4 p-lg-5">
+                        <div id="customSlider" class="carousel slide w-100 h-100" data-bs-ride="carousel">
+
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#customSlider" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#customSlider" data-bs-slide-to="1"></button>
+                            </div>
+
+
+                            <div class="carousel-inner h-100">
+
+                                <div class="carousel-item active h-100">
+                                    <div class="bg-black text-white p-4 h-100 d-flex">
+                                        <div class="row align-items-center w-100">
+
+                                            <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                                                <div
+                                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-3 mb-3">
+                                                    <img src="./assests/icon/Apple_gray_logo.svg" alt="Apple_gray_logo"
+                                                        width="40">
+                                                    <p class="m-0">iPhone 14 Series</p>
+                                                </div>
+
+                                                <h1 class="fw-semibold mb-5">
+                                                    Up to 10% <br> off Voucher
+                                                </h1>
+
+                                                <div
+                                                    class="d-flex justify-content-center justify-content-md-start align-items-center">
+                                                    <a href="#" class="text-white border-bottom text-decoration-none">
+                                                        Shop Now
+                                                    </a>
+                                                    <img src="./assests/icon/white-arrowright.svg"
+                                                        alt="white-arrowright" class="ms-2">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 text-center">
+                                                <img src="./assests/images/hero_endframe.webp" alt="hero_endframe"
+                                                    class="img-fluid">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item h-100">
+                                    <div class="bg-black text-white p-4 h-100 d-flex">
+                                        <div class="row align-items-center w-100">
+
+                                            <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                                                <h5 class="mb-4 mt-3">New Collection</h5>
+                                                <h1 class="mb-5">Big Discount Sale</h1>
+
+                                                <div
+                                                    class="d-flex justify-content-center justify-content-md-start align-items-center">
+                                                    <a href="#" class="text-white border-bottom text-decoration-none">
+                                                        Shop Now
+                                                    </a>
+                                                    <img src="./assests/icon/white-arrowright.svg"
+                                                        alt="white-arrowright" class="ms-2">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 text-center">
+                                                <img src="./assests/images/hero_endframe.webp" alt="hero_endframe"
+                                                    class="img-fluid">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="flash-sale-section">
+            <div class="container py-5 mt-5">
+
+                <div class="row g-3">
+
+                    <div class="col-auto">
+                        <div class="bg-danger px-2 py-3 rounded-1"></div>
+                    </div>
+                    <div class="col-auto">
+                        <p class="fw-semibold text-danger mt-1">Today’s</p>
+                    </div>
+
+                </div>
+                <div class="row align-items-center g-3">
+
+                    <div class="col-lg-3 col-12">
+                        <h2 class="fw-medium m-0">Flash Sales</h2>
+                    </div>
+
+                    <div class="col-lg-6  col-12">
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+
+                            <div>
+                                <p class="m-0 fw-medium">Days</p>
+                                <h2 class="m-0">03</h2>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-center gap-1 mt-3">
+                                <span class="bg-danger rounded-circle d-inline-block p-1"></span>
+                                <span class="bg-danger rounded-circle d-inline-block p-1"></span>
+                            </div>
+
+                            <div>
+                                <p class="m-0 fw-medium">Hours</p>
+                                <h2 class="m-0">23</h2>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-center gap-1 mt-3">
+                                <span class="bg-danger rounded-circle d-inline-block p-1"></span>
+                                <span class="bg-danger rounded-circle d-inline-block p-1"></span>
+                            </div>
+
+                            <div>
+                                <p class="m-0 fw-medium">Minutes</p>
+                                <h2 class="m-0">19</h2>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-center gap-1 mt-3">
+                                <span class="bg-danger rounded-circle d-inline-block p-1"></span>
+                                <span class="bg-danger rounded-circle d-inline-block p-1"></span>
+                            </div>
+
+                            <div>
+                                <p class="m-0 fw-medium">Seconds</p>
+                                <h2 class="m-0">56</h2>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-3   d-flex justify-content-end ">
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-secondary rounded-circle p-2">
+                                <img src="./assests/icon/blackarrowleft.svg" alt="black arrow left">
+                            </button>
+                            <button class="btn btn-secondary rounded-circle p-2">
+                                <img src="./assests/icon/blackarrowright.svg" alt="black arrow right">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-4">
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+                                <span
+                                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2 fw-lighter rounded-1">-40%</span>
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view product">
+                                </div>
+
+                                <img src="./assests/images/2-section-img-1.webp" class="img-fluid"
+                                    alt="HAVIT HV-G92 Gamepad">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">HAVIT HV-G92 Gamepad</h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$120</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">$160</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(88)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0 ">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+                                <span
+                                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2 fw-lighter rounded-1">-35%</span>
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view product">
+                                </div>
+                                <div
+                                    class="bg-dark text-white text-center py-2 position-absolute bottom-0 w-100 start-0 rounded-bottom-1">
+                                    Add To
+                                    Cart
+                                </div>
+                                <img src="./assests/images/2-section-img-2.webp" class="img-fluid"
+                                    alt="AK-900 Wired Keyboard">
+
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">AK-900 Wired Keyboard </h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$960</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">$1160</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(75)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+                                <span
+                                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2 fw-lighter rounded-1">-30%</span>
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view product">
+                                </div>
+
+                                <img src="./assests/images/2-section-img-3.webp" class="img-fluid"
+                                    alt="IPS LCD Gaming Monitor">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">IPS LCD Gaming Monitor </h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$370</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">$400</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(99)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+                                <span
+                                    class="badge bg-danger position-absolute top-0 start-0 m-2 px-3 py-2 fw-lighter rounded-1">-25%</span>
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view product">
+                                </div>
+
+                                <img src="./assests/images/2-section-img-4.webp" class="img-fluid"
+                                    alt="S-Series Comfor air">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">S-Series Comfort air</h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$375</span>
+                                    <span class=" text-muted text-decoration-line-through ms-2">$400</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star-half-filled.svg" alt="half star">
+                                    <small class="text-muted ">(99)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-danger px-4 rounded-1">View All Products</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="category-section">
+            <div class="container py-5 mt-5 mb-5">
+                <div class="border-top border-bottom border-2 p-5">
+
+                    <div class="row g-3">
+                        <div class="col-auto">
+                            <div class="bg-danger px-2 py-3 rounded-1"></div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="fw-semibold text-danger mt-1">Categories</p>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center g-3">
+                        <div class="col-12 d-flex justify-content-between align-items-center">
+                            <h2 class="fw-medium m-0">Browse By Category</h2>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-secondary rounded-circle p-2">
+                                    <img src="./assests/icon/blackarrowleft.svg" alt="black arrow left">
+                                </button>
+                                <button class="btn btn-secondary rounded-circle p-2">
+                                    <img src="./assests/icon/blackarrowright.svg" alt="black arrow right">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4 mt-4">
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex">
+                            <div class="border p-3 text-center w-100">
+                                <img src="./assests/images/3-section-img-1.webp" class="img-fluid"
+                                    alt="phones category image">
+                                <p class="mt-3 mb-0">Phones</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex">
+                            <div class="border p-3 text-center w-100">
+                                <img src="./assests/images/3-section-img-2.webp" class="img-fluid"
+                                    alt="computers category image">
+                                <p class="mt-3 mb-0">Computers</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex">
+                            <div class="border p-3 text-center w-100">
+                                <img src="./assests/images/3-section-img-3.webp" class="img-fluid"
+                                    alt="smartwat category image">
+                                <p class="mt-3 mb-0">Smartwatch</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex">
+                            <div class="border p-3 text-center bg-danger text-white w-100">
+                                <img src="./assests/images/3-section-img-4.webp" class="img-fluid"
+                                    alt="camera category image">
+                                <p class="mt-3 mb-0">Camera</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex">
+                            <div class="border p-3 text-center w-100">
+                                <img src="./assests/images/3-section-img-5.webp" class="img-fluid"
+                                    alt="headphones category image">
+                                <p class="mt-3 mb-0">Headphones</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex">
+                            <div class="border p-3 text-center w-100">
+                                <img src="./assests/images/3-section-img-6.webp" class="img-fluid"
+                                    alt="gaming category image">
+                                <p class="mt-3 mb-0">Gaming</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="best-selling-section">
+            <div class="container py-5 my-5">
+
+                <div class="row g-3">
+
+                    <div class="col-auto">
+                        <div class="bg-danger px-2 py-3 rounded-1"></div>
+                    </div>
+                    <div class="col-auto">
+                        <p class="fw-semibold text-danger mt-1">This Month</p>
+                    </div>
+
+                </div>
+                <div class="row align-items-center g-3">
+
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="fw-medium m-0">Best Selling Products</h2>
+                        <button class="btn btn-danger  rounded-1 fw-normal small">
+                            View All
+                        </button>
+                    </div>
+                </div>
+                <div class="row g-4 mt-4">
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="heart icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view icon">
+
+                                </div>
+
+                                <img src="./assests/images/4-section-img-1.webp" class="img-fluid"
+                                    alt="the north coat product">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">The north coat </h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$260</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">$360</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(65)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0 ">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="heart icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view icon">
+
+                                </div>
+
+                                <img src="./assests/images/4-section-img-2.webp" class="img-fluid"
+                                    alt="gucci duffle bag product">
+
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">Gucci duffle bag</h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$960</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">$1160</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star-half-filled.svg" alt="half star">
+                                    <small class="text-muted">(65)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="heart icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view icon">
+
+                                </div>
+
+                                <img src="./assests/images/4-section-img-3.webp" class="img-fluid"
+                                    alt="rgb liquid cpu cooler product">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">RGB liquid CPU Cooler</h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$160</span>
+                                    <span class="text-muted text-decoration-line-through ms-2">$170</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star-half-filled.svg" alt="half star">
+                                    <small class="text-muted">(65)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center p-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="heart icon">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view icon">
+
+                                </div>
+
+                                <img src="./assests/images/4-section-img-4.webp" class="img-fluid"
+                                    alt="small bookshelf product">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">Small Bookshelf</h6>
+
+                                <div class="mb-2">
+                                    <span class="text-danger fw-medium">$360</span>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted ">(65)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="music-banner-section">
+            <div class="container py-5 mt-5 mb-5">
+                <div class="row align-items-center text-white gy-5 gy-lg-0 bg-dark p-5 ">
+
+                    <div class="col-lg-6 col-md-6">
+                        <span class="new-color-text">Categories</span>
+                        <h1 class="fw-medium my-3">Enhance Your <br> Music Experience</h1>
+
+                        <div class="d-flex gap-2 text-dark mb-5  mt-4">
+
+                            <div
+                                class="rounded-circle bg-white d-flex flex-column justify-content-center align-items-center px-3 py-3">
+                                <h6 class="m-0  text-center lh-1 fw-semibold">23</h6>
+                                <span class="smallest-size m-0 ">Hours</span>
+                            </div>
+
+                            <div
+                                class="rounded-circle bg-white d-flex flex-column justify-content-center align-items-center smallest-cricle-p ">
+                                <h6 class="m-0  text-center lh-1 fw-semibold">05</h6>
+                                <span class="smallest-size m-0 ">Days</span>
+                            </div>
+
+                            <div
+                                class="rounded-circle bg-white d-flex flex-column justify-content-center align-items-center small-cricle-p">
+                                <h6 class="m-0  text-center lh-1 fw-semibold">59</h6>
+                                <span class="smallest-size m-0 ">Minutes</span>
+                            </div>
+
+                            <div
+                                class="rounded-circle bg-white d-flex flex-column justify-content-center align-items-center small-cricle-p">
+                                <h6 class="fw-semibold lh-1 m-0 text-center">59</h6>
+                                <span class="smallest-size m-0">Seconds</span>
+                            </div>
+
+                        </div>
+
+                        <button class="btn new-color text-white px-4 py-2 rounded-1">Buy Now!</button>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-5  text-end">
+                        <img src="./assests/images/speaker.webp" class="img-fluid" alt="speaker product">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container py-5  mt-5 mb-5">
+
+                <div class="row g-3">
+
+                    <div class="col-auto">
+                        <div class="bg-danger px-2 py-3 rounded-1"></div>
+                    </div>
+                    <div class="col-auto">
+                        <p class="fw-semibold text-danger mt-1">Our Products</p>
+                    </div>
+
+                </div>
+                <div class="row align-items-center g-3">
+
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="fw-medium m-0">Explore Our Products</h2>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-secondary rounded-circle p-2">
+                                <img src="./assests/icon/blackarrowleft.svg" alt="left arrow">
+                            </button>
+                            <button class="btn btn-secondary rounded-circle p-2">
+                                <img src="./assests/icon/blackarrowright.svg" alt="right arrow">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-4">
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center py-5 px-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-1.webp" class="img-fluid"
+                                    alt="Breed Dry Dog Food">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">Breed Dry Dog Food</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium  mt-1 me-2">$100</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/start-unfilled.svg" alt="star">
+                                    <img src="./assests/icon/start-unfilled.svg" alt="star">
+                                    <small class="text-muted">(35)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0 ">
+                            <div class="position-relative bg-secondary text-center py-5 px-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+                                <div
+                                    class="bg-dark text-white text-center py-2 position-absolute bottom-0 w-100 start-0 rounded-bottom-1">
+                                    Add To
+                                    Cart
+                                </div>
+                                <img src="./assests/images/6-section-img-2.webp" class="img-fluid"
+                                    alt="Canon EOS DSLR Camera">
+
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">CANON EOS DSLR Camera</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium mt-1 me-2">$360</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/start-unfilled.svg" alt="star">
+                                    <small class="text-muted">(95)</small>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center  py-5 px-4  rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-3.webp" class="img-fluid"
+                                    alt="ASUS FHD Gaming Laptop">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">ASUS FHD Gaming Laptop</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium mt-1 me-2">$700</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(325)</small>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center  py-5 px-4  rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-4.webp" class="img-fluid"
+                                    alt="Kids Electric Car">
+                            </div>
+
+                            <div class="card-body px-0">
+                                <h6 class="fw-semibold">Kids Electric Car</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium mt-1 me-2">$500</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/start-unfilled.svg" alt="star">
+                                    <small class="text-muted ">(125)</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0 ">
+                            <div class="position-relative bg-secondary text-center py-5 px-4 rounded-1">
+                                <span
+                                    class="badge new-color position-absolute top-0 start-0 m-2 px-3 py-2 fw-lighter rounded-1">new</span>
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-5.webp" class="img-fluid"
+                                    alt="Kids Electric Car">
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h6 class="fw-semibold">Kids Electric Car</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium  mt-1 me-2">$960</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(35)</small>
+                                </div>
+                                <div class="d-flex  gap-2 align-items-center mt-1">
+
+                                    <div class=" rounded-circle text-center border border-dark border-2 ">
+                                        <div class="p-2  rounded-circle bg-danger border border-white border-2"></div>
+                                    </div>
+                                    <div class="rounded-circle bg-danger  border border-3 border-danger p-2 "></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0 ">
+                            <div class="position-relative bg-secondary text-center py-5 px-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-6.webp" class="img-fluid"
+                                    alt="Jr. Zoom Soccer Cleats">
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h6 class="fw-semibold">Jr. Zoom Soccer Cleats</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium  mt-1 me-2">$1160</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <small class="text-muted">(35)</small>
+                                </div>
+                            </div>
+                            <div class="d-flex  gap-2  align-items-center mt-1">
+
+                                <div class=" rounded-circle text-center border border-dark border-2 ">
+                                    <div class="p-2  rounded-circle bg-warning border border-white border-2"></div>
+                                </div>
+                                <div class="rounded-circle bg-danger  border border-3 border-danger p-2 "></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center py-5 px-4 rounded-1">
+                                <span
+                                    class="badge new-color position-absolute top-0 start-0 m-2 px-3 py-2 fw-lighter rounded-1">new</span>
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-7.webp" class="img-fluid"
+                                    alt="GP11 Shooter USB Gamepad">
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h6 class="fw-semibold">GP11 Shooter USB Gamepad</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium  mt-1 me-2">$660</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star-half-filled.svg" alt="star">
+                                    <small class="text-muted">(35)</small>
+                                </div>
+                                <div class="d-flex  gap-2  align-items-center mt-1">
+
+                                    <div class=" rounded-circle text-center border border-dark border-2 ">
+                                        <div class="p-2  rounded-circle bg-dark border border-white border-2">
+                                        </div>
+                                    </div>
+                                    <div class="rounded-circle bg-danger  border border-3 border-danger p-2 "></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card border-0">
+                            <div class="position-relative bg-secondary text-center py-5 px-4 rounded-1">
+
+                                <div class="position-absolute top-0 end-0 m-2 d-flex flex-column gap-4">
+                                    <img src="./assests/icon/heart.svg" alt="wishlist">
+                                    <img src="./assests/icon/eye-icon.svg" alt="view">
+                                </div>
+
+                                <img src="./assests/images/6-section-img-8.webp" class="img-fluid"
+                                    alt="Quilted Satin Jacket">
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h6 class="fw-semibold">Quilted Satin Jacket</h6>
+
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="text-danger fw-medium  mt-1 me-2">$660</span>
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star.svg" alt="star">
+                                    <img src="./assests/icon/star-half-filled.svg" alt="star">
+                                    <small class="text-muted">(35)</small>
+                                </div>
+                                <div class="d-flex  gap-2  align-items-center mt-1">
+
+                                    <div class=" rounded-circle text-center border border-dark border-2 ">
+                                        <div
+                                            class="p-2  rounded-circle bg-success-emphasis border border-white border-2">
+                                        </div>
+                                    </div>
+                                    <div class="rounded-circle bg-danger  border border-3 border-danger p-2 "></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="featured-section">
+            <div class="container py-5 mt-5 mb-4">
+
+
+                <div class="row g-3">
+                    <div class="col-auto">
+                        <div class="bg-danger px-2 py-3 rounded-1"></div>
+                    </div>
+                    <div class="col-auto">
+                        <p class="fw-semibold text-danger mt-1">Featured</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center g-3">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="fw-medium m-0">New Arrival</h2>
+                    </div>
+                </div>
+
+
+                <div class="row mt-5 g-4 align-items-stret">
+
+
+                    <div class="col-lg-6 col-12">
+                        <div class="position-relative h-100 bg-dark">
+
+                            <img src="./assests/images/7-section-img-1.webp"
+                                class="img-fluid w-100 h-100 object-fit-cover" alt="PlayStation 5">
+
+                            <div class="position-absolute bottom-0 start-0 text-white p-3 col-lg-6 col-8">
+                                <h5 class="mb-2 fw-medium">PlayStation 5</h5>
+                                <p class="small fw-light">
+                                    Black and White version of the PS5 coming out on sale.
+                                </p>
+                                <a href="#" class="text-white text-decoration-none border-bottom">
+                                    Shop Now
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-12 d-flex flex-column">
+
+                        <div class="position-relative bg-dark flex-fill mb-3">
+
+                            <img src="./assests/images/7-section-img-2.webp"
+                                class="img-fluid w-100 h-100 object-fit-cover" alt="Women's Collection">
+
+                            <div class="position-absolute bottom-0 start-0 text-white p-3 col-lg-7 col-8">
+                                <h5 class="mb-2 fw-medium">Women’s Collections</h5>
+                                <p class="small fw-light">
+                                    Featured woman collections that give you another vibe.
+                                </p>
+                                <a href="#" class="text-white text-decoration-none border-bottom">
+                                    Shop Now
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row g-3 flex-fill">
+
+                            <div class="col-md-6 col-12 d-flex">
+                                <div class="position-relative bg-dark w-100">
+
+                                    <img src="./assests/images/7-section-img-3.webp"
+                                        class="img-fluid w-100 h-100 object-fit-cover" alt="Speakers">
+
+                                    <div class="position-absolute bottom-0 start-0 text-white p-3">
+                                        <h5 class="m-1 fw-medium">Speakers</h5>
+                                        <p class="small fw-light m-0">
+                                            Amazon wireless speakers
+                                        </p>
+                                        <a href="#" class="text-white text-decoration-none border-bottom">
+                                            Shop Now
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12 d-flex">
+                                <div class="position-relative bg-dark w-100">
+
+                                    <img src="./assests/images/7-section-img-4.webp"
+                                        class="img-fluid w-100 h-100 object-fit-cover" alt="Perfume">
+
+                                    <div class="position-absolute bottom-0 start-0 text-white p-3">
+                                        <h5 class="m-1 fw-medium">Perfume</h5>
+                                        <p class="small fw-light m-0">
+                                            Luxury fragrance collection
+                                        </p>
+                                        <a href="#" class="text-white text-decoration-none border-bottom">
+                                            Shop Now
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="services-section">
+            <div class="container px-3 py-5 ">
+                <div class="row justify-content-center g-4 justify-content-md-around">
+
+                    <div
+                        class="col-lg-4 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="mt-4 lightergray rounded-circle p-2">
+                            <img src="./assests/icon/delivery.svg" alt="delivery service"
+                                class="img-fluid rounded-circle bg-dark p-1">
+                        </div>
+                        <h5 class="m-0 mt-4">FREE AND FAST DELIVERY</h5>
+                        <small class="text-muted">Free delivery for all orders over $140</small>
+                    </div>
+
+                    <div
+                        class="col-lg-4 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="mt-4 lightergray rounded-circle p-2">
+                            <img src="./assests/icon/Customerservice.svg" alt="customer service"
+                                class="img-fluid rounded-circle bg-dark p-1">
+                        </div>
+                        <h5 class="m-0 mt-4">24/7 CUSTOMER SERVICE</h5>
+                        <small class="text-muted">Friendly 24/7 customer support</small>
+                    </div>
+
+                    <div
+                        class="col-lg-4 col-md-6 col-12 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="mt-4 lightergray rounded-circle p-2">
+                            <img src="./assests/icon/Customerservice.svg" alt="money back guarantee"
+                                class="img-fluid rounded-circle bg-dark p-1">
+                        </div>
+                        <h5 class="m-0 mt-4">MONEY BACK GUARANTEE</h5>
+                        <small class="text-muted">We return money within 30 days</small>
+                    </div>
+
+                </div>
+                <div class="row ">
+                    <div class="col-11">
+
+                    </div>
+                    <div class="d-flex justify-content-end mt-5">
+                        <button class="btn btn-secondary rounded-circle p-2">
+                            <img src="./assests/icon/arrowup.svg" alt="scroll up">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black text-white py-5 ">
+        <div class="container">
+            <div class="row gap-1 gy-5 gy-md-0">
+                <div class="col-lg-2 col-md-6 col-12 text-center text-md-start ">
+                    <h3 class="fw-bold mb-4">Exclusive</h3>
+                    <h5 class="mb-3 fw-normal">Subscribe</h5>
+                    <p class="m-0 mb-3">Get 10% off your first order</p>
+
+                    <div class="d-flex border border-white rounded-1 justify-content-between py-1 px-1 gap-2">
+                        <input type="text" class="form-control form-control-sm bg-transparent border-0 shadow-none"
+                            placeholder="Enter your email">
+                        <img src="./assests/icon/telegram.svg" class="me-3" alt="send">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12  text-center text-md-start  ms-lg-4">
+                    <h5 class="mb-4">Support</h5>
+                    <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+                    <p class="mb-2">exclusive@gmail.com</p>
+                    <p>+88015-88888-9999</p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12 text-center text-md-start  ms-lg-5">
+                    <h5 class="mb-4">Account</h5>
+                    <ul class="list-unstyled">
+                        <li class="py-2">My Account</li>
+                        <li class="py-2">Login / Register</li>
+                        <li class="py-2">Cart</li>
+                        <li class="py-2">Wishlist</li>
+                        <li class="py-2">Shop</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-12 text-center text-md-start">
+                    <h5 class="mb-4">Quick Link</h5>
+                    <ul class="list-unstyled">
+                        <li class="py-2">Privacy Policy</li>
+                        <li class="py-2">Terms Of Use</li>
+                        <li class="py-2">FAQ</li>
+                        <li class="py-2">Contact</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 text-center text-md-start px-4">
+                    <h5 class="mb-4">Download App</h5>
+                    <p class="small">Save $3 with App New User Only</p>
+
+                    <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
+                        <img src="./assests/images/QrCode.webp" alt="QR code">
+                        <div class="d-flex flex-column gap-2 mt-2">
+                            <img src="./assests/images/download-appstore.webp" alt="App Store download">
+                            <img src="./assests/images/play-app-store-logo.webp" alt="Google Play download">
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 justify-content-center justify-content-md-start">
+                        <img src="./assests/icon/facebook.svg" alt="Facebook">
+                        <img src="./assests/icon/twitter.svg" alt="Twitter">
+                        <img src="./assests/icon/instagram.svg" alt="Instagram">
+                        <img src="./assests/icon/linkedin.svg" alt="LinkedIn">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5 pt-3 border-0 text-last-footer">
+                © Copyright Rimel 2022. All right reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
