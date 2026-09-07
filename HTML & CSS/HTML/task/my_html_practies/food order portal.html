@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Food Order Menu</h1>
+    <input type="checkbox" class="item" id="p" value="199"><span>pizza 199 &#8377;</span><br><br>
+    <input type="checkbox" class="item" id="b" value="40"><span>burger 40 &#8377;</span><br><br>
+    <input type="checkbox" class="item" id="s" value="80"><span>sandwich 80 &#8377;</span><br><br>
+    <input type="checkbox" class="item" id="c" value="40"><span>cold coffee 40 &#8377;</span><br><br>
+    <input type="checkbox" class="item" id="te" value="10"><span>tea 10 &#8377;</span><br><br>
+    <input type="checkbox" class="item" id="d" value="60"><span>dosa 60 &#8377;</span><br><br>
+    <select id="t">
+        <option value="">tax</option>
+        <option value="0.02">%2</option>
+        <option value="0.15">%1.5</option>
+        <option value="0.01">%1</option>
+    </select><br><br>
+    <button type="button" id="btt">click</button><br><br>
+    <p><!-- Your Final Bill : <span id="bill">0</span> &#8377;
+ -->    <h2 id="yi"></h2> 
+    <h4 id="bill"></h4>
+    <h4 id="tt"></h4>
+    <h4 id="tb"></h4>
+    </p>
+    <script>
+       /*  let amt=0;
+        document.querySelectorAll(".item").forEach((check)=>{
+            check.addEventListener("click",(e)=>{
+                (check.checked==true)?bill.innerText=amt+=parseInt(e.target.value):amt-=parseInt(e.target.value);
+                bill.innerText=`${amt}`;
+            });
+        }); */
+        btt.onclick = () => {
+            let pp = parseInt(p.value);
+            let bb = parseInt(b.value);
+            let ss = parseInt(s.value);
+            let cc = parseInt(c.value);
+            let tet = parseInt(te.value);
+            let dd = parseInt(d.value);
+            let tax = t.value;
+            let total = 0;
+
+            if (p.checked == true)
+                total = total + pp;
+            if (b.checked == true)
+                total = total + bb;
+            if (s.checked == true)
+                total = total + ss;
+            if (c.checked == true)
+                total = total + cc;
+            if (te.checked == true)
+                total = total + tet;
+            if (d.checked == true)
+                total = total + dd;
+
+            yi.innerHTML = "Your Bill";
+            bill.innerHTML = "bill = " + total;
+            tt.innerHTML = "tax = " + (total * tax);
+            tb.innerHTML = "totalbill = " + (total + (total * tax));
+        };
+    </script>
+</body>
+
+</html>

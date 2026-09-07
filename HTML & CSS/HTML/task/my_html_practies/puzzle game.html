@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+
+
+        }
+
+        .puzzle {
+            height: 98vh;
+            width: 100vw;
+            /*  display: grid;
+            justify-content: center;
+            align-items: center; */
+            background-image: url(/image/puzzle.jpg);
+
+
+            position: relative;
+            opacity: 0.3;
+        }
+
+        .main {
+            height: 75.2vh;
+            width: 431px;
+            border: 3px dashed purple;
+            margin-top: 7rem;
+            position: absolute;
+            margin-left: 27rem;
+
+
+        }
+
+        .main img {
+            width: 141px;
+            height: 218px;
+        }
+
+        .head {
+            /*    border: 1px solid black; */
+            border-radius: 2rem;
+            justify-content: center;
+            display: grid;
+            position: absolute;
+            margin-bottom: 28rem;
+            margin-left: 28.8rem;
+            width: 30vw;
+            background-color: hotpink;
+            color: lemonchiffon;
+        }
+
+        .result {
+            height: 10vh;
+            width: 25vw;
+            position: absolute;
+            background-color: aquamarine;
+            margin-left: 57rem;
+            text-align: center;
+            line-height: 4rem;
+            font-size: xx-large;
+            border-radius: 2rem;
+            opacity: 0.5;
+            color: purple;
+            display: none;
+        }
+
+        #bt {
+            height: 10vh;
+            width: 20vw;
+            position: absolute;
+            text-align: center;
+            line-height: 2rem;
+            font-size: xx-large;
+            margin-left: 4rem;
+            border-radius: 2rem;
+            border: none;
+            opacity: 0.5;
+            background-color: aqua;
+            color: purple;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>Puzzle Game</h1>
+    </div>
+    <div class="puzzle">
+    </div>
+
+    <button type="button" id="bt">restart</button>
+    <div class="main">
+        <img src="/image/teddy_part_3.png" alt="">
+        <img src="/image/teddy_part_6.png" alt="">
+        <img src="/image/teddy_part_2.png" alt="">
+        <img src="/image/teddy_part_5.png" alt="">
+        <img src="/image/teddy_part_4.png" alt="">
+        <img src="/image/teddy_part_1.png" alt="">
+    </div>
+    <div class="result">Puzzle Completed!</div>
+
+    <script>
+        let imgbox = document.querySelector(".main");
+        let image = document.querySelectorAll("img");
+        let result = document.querySelector(".result")
+        let draggedimage = null;
+
+        image.forEach(img => img.addEventListener("dragstart", () => draggedimage = img));
+
+
+        imgbox.addEventListener("dragover", (e) => e.preventDefault());
+        imgbox.addEventListener("drop", () => {
+            imgbox.appendChild(draggedimage)
+            setTimeout(checkPuzzle, 50)
+        });
+
+
+
+        function checkPuzzle() {
+
+
+            let a = imgbox.children[0].src.includes("teddy_part_1.png");
+            let b = imgbox.children[1].src.includes("teddy_part_2.png");
+            let c = imgbox.children[2].src.includes("teddy_part_3.png");
+            let d = imgbox.children[3].src.includes("teddy_part_4.png");
+            let e = imgbox.children[4].src.includes("teddy_part_5.png");
+            let f = imgbox.children[5].src.includes("teddy_part_6.png");
+
+            if (a && b && c && d && e && f) {
+                result.style.display = "block"
+            }
+        }
+
+        bt.onclick = () => {
+
+            imgbox.children[0].src = "/image/teddy_part_3.png";
+            imgbox.children[1].src = "/image/teddy_part_6.png";
+            imgbox.children[2].src = "/image/teddy_part_2.png";
+            imgbox.children[3].src = "/image/teddy_part_5.png";
+            imgbox.children[4].src = "/image/teddy_part_4.png";
+            imgbox.children[5].src = "/image/teddy_part_1.png";
+            result.style.display = "none"
+        }
+
+
+    </script>
+</body>
+
+</html>

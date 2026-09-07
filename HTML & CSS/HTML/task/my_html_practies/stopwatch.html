@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background-color: powderblue;
+        }
+
+        #main {
+            height: 20vh;
+            width: 30vw;
+            position: absolute;
+            color: lemonchiffon;
+            display: flex;
+            gap: 1rem;
+            margin-left: 28rem;
+            margin-top: 25rem;
+        }
+
+        #hour {
+            height: 20vh;
+            width: 10vw;
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        #min {
+            height: 20vh;
+            width: 10vw;
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        #sec {
+            height: 20vh;
+            width: 10vw;
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        .d {
+            height: 20vh;
+            width: 3vw;
+        }
+
+        .o {
+            height: 15px;
+            width: 15px;
+            background-color: lemonchiffon;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 1.5rem;
+        }
+
+        button {
+            height: 10vh;
+            width: 20vh;
+            background-color: pink;
+            font-size: 2rem;
+            border: none;
+            margin-top: 9rem;
+            border-radius: 20%;
+            color: rgba(128, 0, 128, 0.543);
+        }
+
+        .teddy {
+            background-image: url(image/teddy.jpg);
+            height: 100vh;
+            width: 100vw;
+            background-position: center;
+            background-size: contain;
+            opacity: 0.25;
+            position: relative;
+        }
+
+        .stopwatch {
+            position: absolute;
+            font-size: 3rem;
+            margin-bottom: 10rem;
+            margin-left: 25rem;
+            color: rgba(255, 237, 255, 0.985);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="teddy"></div>
+    <div class="stopwatch">
+        <h1>stop watch</h1>
+    </div>
+    <div id="main">
+        <div id="hour">00</div>
+        <div class="d">
+            <div class="o"></div>
+            <div class="o"></div>
+        </div>
+        <div id="min">00</div>
+        <div class="d">
+            <div class="o"></div>
+            <div class="o"></div>
+        </div>
+        <div id="sec">00</div>
+    </div>
+    <div id="main">
+        <button type="button" id="btt">start</button>
+        <button type="button" id="bt">stop</button>
+        <button type="button" id="b">restart</button>
+    </div>
+    <script>
+        /*  let s = 0, m = 0, h = 0;
+         let started=false;
+         btt.onclick = () => {
+             if(started) return;
+             started=true;
+             let time = setInterval(() => {
+                 if (s < 59)
+                  sec.innerHTML = ++s;
+                 else if (m < 59) {
+                     // s = 0;
+                     min.innerHTML = ++m;
+                 }
+                 else if (h < 59) {
+                     // s = 0;
+                     // m = 0;
+                     hour.innerHTML = ++hour;
+                 }
+             }, 500);
+ 
+             bt.onclick = () => {
+                 
+                 clearInterval(time);
+             }
+             b.onclick=()=>{
+                 s=m=h=0;
+                 sec.innerHTML = s;
+                 min.innerHTML = m;
+                 clearInterval(time);
+             }
+         } */
+        let s = 0;
+        let m = 0;
+        let h = 0;
+        let i = 1;
+        let r = 1;
+
+        b.onclick = () => {
+            r = 0;
+            hour.innerHTML = "00";
+            min.innerHTML = "00";
+            sec.innerHTML = "00";
+        }
+        btt.onclick = () => {
+            r = 1;
+            let myfun = setInterval(function () {
+                if (r == 0) {
+                    clearInterval(myfun);
+                    s = 0;
+                    h = 0;
+                    m = 0;
+                }
+                else {
+                    if (s > 58) {
+                        if (m > 58) {
+                            if (h > 100) {
+                                clearInterval(myfun);
+                                hour.innerHTML = "00";
+                                min.innerHTML = "00";
+                                sec.innerHTML = "00";
+                            }
+                            else {
+                                if (i == 0)
+                                    hour.innerHTML = h;
+                                else
+                                    h++;
+                                m = 0;
+                                if (h > 9)
+                                    hour.innerHTML = h;
+                                else
+                                    hour.innerHTML = "0" + h;
+                            }
+                        }
+                        else {
+                            if (i == 0)
+                                min.innerHTML = m;
+                            else
+                                m++;
+
+                            s = 0;
+                            if (m > 9)
+                                min.innerHTML = m;
+                            else
+                                min.innerHTML = "0" + m;
+                        }
+                    }
+                    else {
+                        if (i == 0)
+                            sec.innerHTML = s;
+                        else
+                            s++;
+                        if (s > 9)
+                            sec.innerHTML = s;
+                        else
+                            sec.innerHTML = "0" + s;
+                    }
+                }
+            }, 1000);
+
+        }
+        bt.onclick = () => { i = 0; }
+
+
+    </script>
+</body>
+
+</html>

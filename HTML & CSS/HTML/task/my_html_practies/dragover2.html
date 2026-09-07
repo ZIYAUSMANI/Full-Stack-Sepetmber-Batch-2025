@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    div {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+    }
+
+    .box {
+        display: flex;
+        width: 600px;
+    }
+
+    .imgbox {
+        display: flex;
+        width: 600px;
+    }
+</style>
+
+<body>
+    <div class="box">
+
+        <div id="drop"></div>
+        <div id="drop"></div>
+        <div id="drop"></div>
+    </div>
+
+    <div class="imgbox">
+
+        <img src="image/teddy.jpg" draggable="true" height="200" width="200" id="img1">
+        <img src="/image/teddy2.avif" draggable="true" height="200" width="200" id="img2">
+        <img src="/image/stopwatch.jpeg" draggable="true" height="200" width="200" id="img3">
+    </div>
+    <script>
+        /* let img1 = document.querySelector("#img1");
+           let img2 = document.querySelector("#img2");
+           let img3 = document.querySelector("#img3"); */
+
+        /*  let drop1 = document.querySelector("#drop1");
+         let drop2 = document.querySelector("#drop2");
+         let drop3 = document.querySelector("#drop3");
+         let drop4 = document.querySelector("#drop4");
+         let drop5 = document.querySelector("#drop5");
+         let drop6 = document.querySelector("#drop6"); */
+        let image = document.querySelectorAll("img");
+        let boxes = document.querySelectorAll("#drop");
+        let imgbox = document.querySelector(".imgbox");
+        let draggedimage = null;
+
+        image.forEach(img => img.addEventListener("dragstart", () => draggedimage = img));
+
+        boxes.forEach(box => {
+            box.addEventListener("dragover", (e) => e.preventDefault());
+            box.addEventListener("drop", () => box.appendChild(draggedimage));
+        });
+
+        imgbox.addEventListener("dragover", (e) => e.preventDefault());
+        imgbox.addEventListener("drop", () => imgbox.appendChild(draggedimage));
+
+    </script>
+
+</body>
+
+</html>

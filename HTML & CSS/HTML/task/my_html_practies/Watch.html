@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    #clock {
+
+        height: 89vh;
+        width: 41.2vw;
+        border-radius: 50%;
+        background-image: url(image/blue-clock-without-hands-on-600nw-1882858732.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    #dot {
+        height: 3vh;
+        width: 1.5vw;
+        background-color: lightskyblue;
+        position: absolute;
+        left: 15.6rem;
+        top: 15.9rem;
+        border-radius: 50%;
+    }
+
+    #hour {
+        height: 19vh;
+        width: 5px;
+        background-color: black;
+        position: absolute;
+        left: 15.85rem;
+        top: 9.4rem;
+        transform-origin: 50% 100%;
+    }
+
+
+    #minute {
+        height: 21vh;
+        width: 4px;
+        background-color: black;
+        position: absolute;
+        left: 15.85rem;
+        top: 8.7rem;
+        transform-origin: 50% 100%;
+
+    }
+
+    #second {
+        height: 24vh;
+        width: 3px;
+        background-color: black;
+        position: absolute;
+        left: 15.85rem;
+        top: 7.5rem;
+        transform-origin: 50% 100%;
+
+    }
+
+    /*  #triangle1{
+    height:0;
+    width:0;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid black;
+    position:absolute;
+    left:15.33rem;
+    top:6.5rem;
+    transform:50%,100%;
+} 
+
+
+#triangle2{
+    height:0;
+    width:0;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid blue;
+    position:absolute;
+    left:15.35rem;
+    top:7rem;
+
+}
+#triangle3{
+    height:0;
+    width:0;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid red;
+    position:absolute;
+    left:15.37rem;
+    top:8rem;
+
+} */
+</style>
+
+<body>
+    <div id="clock">
+        <div id="triangle3"></div>
+        <div id="hour"></div>
+        <div id="triangle2"></div>
+        <div id="minute"></div>
+        <div id="triangle1"></div>
+        <div id="second"></div>
+        <div id="dot"></div>
+
+    </div>
+    <script>
+        setInterval(function () {
+            const date = new Date();
+            let hh = date.getHours();
+            let ss = date.getSeconds();
+            let mm = date.getMinutes();
+
+            second.style.transform = `rotate(${ss * 6}deg)`;
+            hour.style.transform = `rotate(${hh * 30 + mm * .5}deg)`;
+            minute.style.transform = `rotate(${mm * 6}deg)`;
+        }, 1000); 
+    </script>
+</body>
+
+</html>

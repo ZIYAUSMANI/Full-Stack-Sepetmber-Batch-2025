@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            height: 20vh;
+            width: 70vw;
+            border: 5px groove black;
+            background-color: gainsboro;
+            display: flex;
+        }
+
+        #hour {
+            height: 20vh;
+            width: 10vw;
+            font-size: 6rem;
+            text-align: center;
+
+        }
+
+        #min {
+            height: 20vh;
+            width: 9vw;
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        #sec {
+            height: 20vh;
+            width: 9vw;
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        #t {
+            height: 20vh;
+            width: 9vw;
+            font-size: 3rem;
+            /*   border-left:1px solid black;
+   */
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+
+        #d {
+            height: 20vh;
+            width: 15vw;
+            font-size: 2.5rem;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            border-left: 5px groove black;
+        }
+
+        .mm {
+
+            height: 19.8vh;
+            width: 12vw;
+        }
+
+        #dt {
+            height: 10vh;
+            width: 12vw;
+            font-size: 2rem;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            border-left: 5px groove black;
+            border-bottom: 5px groove black;
+        }
+
+        #mt {
+            height: 9.9vh;
+            width: 12vw;
+            border-left: 5px groove black;
+            font-size: 2rem;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .d {
+            height: 20vh;
+            width: 3vw;
+
+        }
+
+        .o {
+            height: 15px;
+            width: 15px;
+            background-color: black;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="hour"></div>
+        <div class="d">
+            <div class="o"></div>
+            <div class="o"></div>
+        </div>
+        <div id="min"></div>
+        <div class="d">
+            <div class="o"></div>
+            <div class="o"></div>
+        </div>
+        <div id="sec"></div>
+        <div id="t"></div>
+        <div id="d"></div>
+        <div class="mm">
+            <div id="dt"></div>
+            <div id="mt"></div>
+        </div>
+    </div>
+    <button type="button" id="bt">click</button>
+
+    <script>
+        mm = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        w = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+        let r = 0;
+        let i = 1;
+        setInterval(() => {
+            if (i == 0) return;
+            let date = new Date();
+            hour.innerHTML = date.getHours();
+            min.innerHTML = date.getMinutes();
+            sec.innerHTML = date.getSeconds();
+            d.innerHTML = w[date.getDay()];
+            let tt = date.getDate();
+            let m = date.getMonth() + 1;
+            let y = date.getFullYear();
+            dt.innerHTML = `${tt}/${m}/${y}`;
+            mt.innerHTML = mm[date.getMonth()];
+            if (date.getHours() > 11) {
+                t.innerHTML = "PM";
+            }
+            else {
+                t.innerHTML = "AM";
+            }
+        }, 1000)
+        bt.onclick = () => {
+
+            if (r == 0) {
+                i = 0;
+                r = 1;
+            }
+            else {
+                i = 1;
+                r = 0;
+            }
+
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>

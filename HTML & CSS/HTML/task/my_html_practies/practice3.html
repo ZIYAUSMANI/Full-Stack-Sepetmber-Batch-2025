@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbox {
+            height: 70vh;
+            width: 50vw;
+            border: 1px solid black;
+            margin: auto;
+            margin-top: 6rem;
+
+
+        }
+
+        input {
+            margin-left: 15.5rem;
+            margin-top: 2rem;
+        }
+
+        .box {
+            height: 150px;
+            width: 150px;
+            border: 1px solid yellow;
+            margin: auto;
+            margin-top: 5rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="box"></div>
+        <input type="range" id="rg" min="0" max="255">
+        <input type="range" id="gg" min="0" max="255">
+        <input type="range" id="yg" min="0" max="255">
+    </div>
+    <script>
+        rg.onmousemove = () => {
+            let box = document.querySelector(".box")
+            box.style.backgroundColor = `rgb(${rg.value},${gg.value},${yg.value})`
+        }
+        gg.onmousemove = () => {
+            let box = document.querySelector(".box")
+            box.style.backgroundColor = `rgb(${rg.value},${gg.value},${yg.value})`
+        }
+        yg.onmousemove = () => {
+            let box = document.querySelector(".box")
+            box.style.backgroundColor = `rgb(${rg.value},${gg.value},${yg.value})`
+        }
+
+    </script>
+</body>
+
+</html>

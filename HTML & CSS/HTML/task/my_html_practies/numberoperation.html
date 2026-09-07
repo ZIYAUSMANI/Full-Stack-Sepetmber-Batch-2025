@@ -1,0 +1,39 @@
+                        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num1" placeholder="enter number"><br>
+    <input type="number" id="num2" placeholder="enter number"><br><br>
+    <span>+</span><input type="radio" id="add" name="ss" value="+">
+    <span>-</span><input type="radio" id="sub" name="ss" value="-">
+    <span>*</span><input type="radio" id="multi" name="ss" value="*">
+    <span>/</span><input type="radio" id="div" name="ss" value="/">
+    <span>%</span><input type="radio" id="moad" name="ss" value="%">
+    <br><br>
+    <button type="button" id="butt">click</button>
+    <br><br>
+    <input type="text" id="ans" value="">
+    <script>
+        butt.onclick = function()
+        {
+            let n1 = parseInt(num1.value);
+            let n2 = parseInt(num2.value);
+            if(add.checked == true)
+                    ans.value = n1 + n2;
+            else if(sub.checked == true)
+                    ans.value = n1 - n2;
+            else if(multi.checked == true)
+                    ans.value = n1 * n2;
+            else if(div.checked == true)
+                    ans.value = n1 / n2;
+            else if(moad.checked == true)
+                    ans.value = n1 % n2;
+        }
+    </script>
+        
+</body>
+</html>

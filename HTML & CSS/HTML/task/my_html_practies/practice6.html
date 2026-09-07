@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="frist" placeholder="enter frist name"><br><br>
+    <input type="text" id="last" placeholder="enter last name"><br><br>
+    <span>male</span><input type="radio" id="m" name="ss">
+    <span>female</span><input type="radio" id="f" name="ss">
+    <span>other</span><input type="radio" id="o" name="ss"><br><br>
+    <input type="text" id="nam" value=""><br><br>
+    <button type="button" id="btt">click</button>
+    <script>
+        btt.onclick = () => {
+            let fnamen = frist.value;
+            let lnamen = last.value;
+            if (m.checked == true)
+                nam.value = "mr." + frist.value + last.value
+            else if (f.checked == true)
+                nam.value = "mrs." + frist.value + last.value
+            else if (o.checked == true)
+                nam.value = frist.value + last.value
+            else
+                alert("please enter all information");
+        }
+    </script>
+</body>
+
+</html>

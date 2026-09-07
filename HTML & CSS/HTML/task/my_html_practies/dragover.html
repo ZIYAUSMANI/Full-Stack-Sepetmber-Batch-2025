@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            width: 250px;
+            border: 1px solid black;
+            float: left;
+        }
+
+        .active {
+            border: 2px dotted red;
+        }
+    </style>
+</head>
+
+<body>
+    <div><img src="image/teddy2.avif" height="200" width="250" draggable="true"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        let boxes = document.querySelectorAll("div");
+        let img = document.querySelector("img");
+        boxes.forEach((box) => {
+            box.addEventListener("dragover", (e) => {
+                e.preventDefault();
+                box.classList.add("active");
+            });
+            box.addEventListener("dragleave", () => {
+                box.classList.remove("active");
+            });
+            box.addEventListener("drop", () => {
+                box.appendChild(img);
+                box.classList.remove("active");
+            });
+        })
+
+    </script>
+</body>
+
+</html>

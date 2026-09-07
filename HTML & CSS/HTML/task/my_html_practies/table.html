@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Table Object</title>
+</head>
+<body>
+    <input type="text" id="username" placeholder="Enter Your Name"><br><br>
+    <input type="text" id="usersale" placeholder="Enter Your Sale"><br><br>
+
+    <button type="button" id="btn">Click to add</button>
+    
+    <table border="1" align="center" width="50%">
+        <tr>
+            <th>Name</th>
+            <th>Sale</th>
+            <th>Delete</th>
+            <th>Edit</th>
+        </tr>
+        <tbody id="tab"></tbody>
+    </table>
+    <script>
+        let i=0;
+        btn.onclick=()=>{
+            let name = username.value;
+            let sale = usersale.value;
+
+            let new_row = tab.insertRow(i);
+
+            let c1 = new_row.insertCell(0);
+            let c2 = new_row.insertCell(1);
+            new_row.insertCell(2).innerHTML = "<button type='button' onclick='del(this)' id='del"+i+"'>Delete</button>";
+            new_row.insertCell(3).innerHTML = "<button type='button' onclick='edit(this)' id='edit"+i+"'>Edit</button>";
+
+            c1.innerText = name;
+            c2.textContent = sale;
+            i++;
+
+            username.value="";
+            usersale.value="";
+            username.focus();
+        }
+
+        function del(x){
+            // console.log(x.parentNode.parentNode);
+            // tab.deleteRow(tab.rows.x);
+            x.parentNode.parentNode.remove();
+        }
+        const edit=(x)=>{
+            let new_name = prompt("Enter new name : ");
+            let new_sale = prompt("Enter new sale : ");
+            // console.log(x.parentNode.parentNode.children)
+            x.parentNode.parentNode.children[0].innerText=new_name;
+            x.parentNode.parentNode.children[1].innerText=new_sale;
+        }
+    </script>
+</body>
+</html>

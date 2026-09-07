@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <select id="city" name="city">
+        <option value="" disabled selected hidden>city</option>
+        <option value="jodhpur">jodhpur</option>
+        <option value="ajmer">ajmer</option>
+        <option value="bikaner">bikaner</option>
+    </select><br><br>
+    <input type="text" id="n" value=""><br><br>
+    <button type="button" id="btt">click</button>
+    <script>
+        btt.onclick = () => {
+            let v = city.value;
+            n.value = v;
+        }
+    </script>
+</body>
+
+</html>

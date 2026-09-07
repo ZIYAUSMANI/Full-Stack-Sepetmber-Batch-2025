@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="date" id="dtt">
+    <button type="button" id="btt">click</button>
+    <p id="pp"></p>
+    <input type="text" id="a" value="" placeholder="your age">
+    <input type="text" id="mon" value="" placeholder="Month">
+    <input type="text" id="da" value="" placeholder="Date">
+    <script>
+        btt.onclick = () => {
+            //wasim sir code
+            let c_d = new Date();
+            let u_d = new Date(dtt.value);
+            let date = c_d-u_d;
+            let dt = new Date(date);
+            pp.innerHTML = `<span>Year : ${dt.getFullYear()-1970}</span>
+                            <span>Month : ${dt.getMonth()}</span>
+                            <span>Days ${dt.getDate()-1}</span>
+                            <span>WeekDay : ${dt.getDay()}</span>`;
+            //current date
+            // let cdate = new Date();
+            // let d = cdate.getDate();
+            // let m = cdate.getMonth();
+            // let y = cdate.getFullYear();
+            // //user dob
+            // let date = new Date(dtt.value);
+            // let yd = date.getDate();
+            // let ym = date.getMonth();
+            // let yy = date.getFullYear();
+
+            // let r = y - yy;
+            // let i = m - ym;
+            // let j = d - yd;
+
+            // if(m < ym){
+            //     r--;
+            //     i =  12 + i;
+            // }
+            
+            // if(d <yd){
+            //     i--;
+            //     j = 30 + j;
+            // }
+
+            // a.value = r;
+            // mon.value=i;
+            // da.value=j;            
+        }
+
+    </script>
+</body>
+
+</html>

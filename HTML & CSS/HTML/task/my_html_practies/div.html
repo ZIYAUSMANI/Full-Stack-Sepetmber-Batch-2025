@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            height:50vh;
+            width: 50vw;
+            
+        }
+
+        #box1,#box {
+            height: 10vh;
+            width: 20vw;
+            background-color: gainsboro;
+            font-size: xx-large;
+            text-align: center;
+            line-height: 3.5rem;
+            border-radius: 0.6rem;
+           border:1px solid black; 
+            margin-top:0.5rem;
+
+        }
+        #box:hover{
+            background-color:black;
+            color:white;
+        }
+        #box1:hover{
+            background-color:black;
+            color:white;
+        }
+
+        #content1,#content {
+            height: 0;
+            width: 50vw;
+            background-color:whitesmoke;
+            transition: 2s;
+            border-radius: 0.6rem;
+      }
+       #p2,#p1{
+            margin:0;
+            opacity:0;
+            padding: 0.3rem;
+            
+        
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="box">Dropdown1<i class="fa-solid fa-caret-down"></i></div>
+        <div id="content"><p id="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti laborum provident
+            rerum quod non a obcaecati placeat consectetur officiis harum facere fugit laudantium, iusto reprehenderit
+            distinctio deserunt nisi quam.
+        </p>
+    </div>
+        
+        <div id="box1">Dropdown2<i class="fa-solid fa-caret-down"></i></div>
+        <div id="content1"><p id="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti laborum provident
+            rerum quod non a obcaecati placeat consectetur officiis harum facere fugit laudantium, iusto reprehenderit
+            distinctio deserunt nisi quam.
+        </p></div>
+
+    </main>
+    <script>
+        let i = 0;
+        box.onclick = () => {
+            if (i == 0) {
+                content.style.height = "13vh";
+                
+                 setTimeout(() => { p1.style.opacity = "1"; },900);
+                content1.style.height = "0vh";
+                p2.style.opacity="0";   
+                i = 1;
+            }
+            else {
+                content.style.height = "0vh";
+                p1.style.opacity="0";
+                i = 0;
+            }
+        }
+        box1.onclick = () => {
+            if (i == 0) {
+                content1.style.height = "12vh";
+                content.style.height = "0vh";
+                
+                p1.style.opacity="0";
+                 setTimeout(() => { p2.style.opacity = "1"; },900);
+                i = 1;
+            }
+            else {
+                content1.style.height = "0vh";
+                p2.style.opacity="0"
+
+                i = 0;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
